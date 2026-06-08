@@ -1,5 +1,5 @@
 function scrollToSection(){
-document.getElementById("About")
+document.getElementById("Abouts")
 .scrollIntoView({
 behavior:"smooth"
 });
@@ -16,7 +16,7 @@ entry.target.style.transform="translateY(0)";
 
 document.querySelectorAll("section").forEach(section=>{
 section.style.opacity="0";
-section.style.transform="translateY(50px)";
+section.style.transform="translateY(51px)";
 section.style.transition="all 1s ease";
 observer.observe(section);
 });
